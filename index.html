@@ -4,6 +4,171 @@
 <head>
 <meta charset="UTF-8">
 <title>Meu Portfólio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* CORPO DA PÁGINA */
+body{
+font-family: Arial, sans-serif;
+background-color:#f4f4f4;
+line-height:1.6;
+}
+
+/* CABEÇALHO */
+header{
+background-color:#350f0f;
+color:white;
+text-align:center;
+padding:30px;
+margin-bottom:20px;
+}
+
+/* MENU */
+nav ul{
+list-style:none;
+margin-top:15px;
+}
+
+nav ul li{
+display:inline-block;
+margin:0 12px;
+}
+
+nav ul li a{
+color:rgb(221,197,197);
+text-decoration:none;
+font-weight:bold;
+padding:6px 10px;
+border-radius:5px;
+}
+
+nav ul li a:hover{
+background:#781d1d;
+color:white;
+}
+
+/* ÁREA PRINCIPAL */
+main{
+width:90%;
+max-width:1000px;
+margin:auto;
+}
+
+/* SEÇÕES */
+section{
+background:rgb(221,197,197);
+margin:25px 0;
+padding:25px;
+border:1px solid #793f3f;
+border-radius:10px;
+}
+
+/* TÍTULOS */
+h2{
+margin-bottom:15px;
+color:#350f0f;
+}
+
+/* IMAGENS */
+.imagem{
+margin:10px;
+border-radius:10px;
+border:3px solid #781d1d;
+}
+
+.imagem:hover{
+transform:scale(1.05);
+}
+
+/* TABELA */
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+background:white;
+}
+
+th{
+background:#781d1d;
+color:white;
+}
+
+th, td{
+border:1px solid #781d1d;
+padding:10px;
+text-align:center;
+}
+
+/* LISTA DE PROJETOS */
+dt{
+font-weight:bold;
+margin-top:10px;
+color:#350f0f;
+}
+
+dd{
+margin-left:20px;
+margin-bottom:10px;
+}
+
+/* FORMULÁRIO */
+fieldset{
+border:2px solid #781d1d;
+padding:20px;
+border-radius:8px;
+}
+
+legend{
+font-weight:bold;
+color:#350f0f;
+}
+
+/* CAMPOS */
+input, select, textarea{
+padding:6px;
+border:1px solid #781d1d;
+border-radius:5px;
+}
+
+/* BOTÃO */
+button{
+padding:10px 20px;
+background:#781d1d;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#350f0f;
+}
+
+/* RODAPÉ */
+footer{
+background:#350f0f;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+footer a{
+color:rgb(221,197,197);
+text-decoration:none;
+margin:0 6px;
+}
+
+footer a:hover{
+text-decoration:underline;
+}
+</style>
+
 </head>
 
 <body>
@@ -30,7 +195,7 @@
 
 <h2>Sobre Mim</h2>
 
-<img src="imagens.jpeg/Perfil_portfolio.jpeg" alt="Foto de Maria Clara" width="200">
+<img src="imagens.jpeg/Perfil_portfolio.jpeg" alt="Foto de Maria Clara" width="200" class="imagem">
 
 <p>
 Olá, sou estudante de Análise e Desenvolvimento de Sistemas no Instituto Federal do Piauí e tenho grande interesse pelo universo da tecnologia.<br>
@@ -54,8 +219,8 @@ Seu navegador não suporta áudio.
 
 <p>
 
-<img src="imagens.jpeg/codec.jpeg" alt="Foto de Maria Clara" width="200">
-<img src="imagens.jpeg/campus_party.jpeg" alt="Foto de Maria Clara" width="200">
+<img src="imagens.jpeg/codec.jpeg" alt="Foto de Maria Clara" width="200" class="imagem">
+<img src="imagens.jpeg/campus_party.jpeg" alt="Foto de Maria Clara" width="200" class="imagem">
 
 <br><br>
 
@@ -126,7 +291,7 @@ que até então não conhecia e aprendi muito sobre as exigências do mercado de
 
 <h2>Formação</h2>
 
-<img src="imagens.jpeg/formatura.jpeg" alt="Foto de Maria Clara" width="200">
+<img src="imagens.jpeg/formatura.jpeg" alt="Foto de Maria Clara" width="200" class="imagem">
 
 <p>
 Em relação à minha formação, concluí o ensino médio no ano de 2024 e atualmente sou estudante de Análise e Desenvolvimento de Sistemas no Instituto Federal <br>
@@ -253,7 +418,7 @@ placeholder="(99)99999-9999">
 <p>
 <a href="https://github.com/clarinhamartins/clarinhamartins.git">GitHub</a> |
 <a href="https://www.linkedin.com/in/maria-clara-almeida-martins-76667b389">LinkedIn</a> |
-<a href="https://www.instagram.com/clarinhamartins11?igsh=cTMxNDMzY2w5OHBi&utm_source=qr">Instagram</a>
+<a href="https://www.instagram.com/clarinhamartins11">Instagram</a>
 </p>
 
 </footer>
